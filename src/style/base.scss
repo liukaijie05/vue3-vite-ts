@@ -1,0 +1,18 @@
+// 定义全局的变量： 例如布局、动画等
+// 定义混合器 例如：颜色、字体大小等
+
+// 基础色调
+$primary-color: #007bff;
+$color-195CC2: #195CC2;
+
+// 混合器： 类似于函数，可以定义一段可复用的样式代码。
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// 调用
+// .container{
+//     @include flex-center;
+// }
